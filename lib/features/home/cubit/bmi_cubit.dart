@@ -9,7 +9,7 @@ class BmiCubit extends Cubit<BmiStates> {
   bool isMale = true;
   double height = 150.0;
   int weight = 60;
-  int age = 26;
+  int age = 30;
 
   void changeGender(bool selectedMale) {
     isMale = selectedMale;
